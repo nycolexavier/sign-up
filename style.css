@@ -16,9 +16,9 @@ body {
 }
 
 main {
-    width: 50vh;
+    width: 50vw;
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -41,6 +41,7 @@ main .social-media a {
 
 main .social-media img {
     width: 36px;
+    margin-left: 3rem;
 }
 
 main .social-media a:first-child img{
@@ -52,7 +53,7 @@ main .alternative {
 }
 
 main .alternative span {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.3);
     position: relative;
@@ -69,7 +70,7 @@ main .alternative span::before, main .alternative span::after {
 }
 
 main .alternative span::after {
-    left: 50%;
+    left: 50px;
 }
 
 main form {
@@ -157,7 +158,7 @@ section.images .circle {
     }
 
     main {
-        width: 100vh;
+        width: 100vw;
     }
 }
 
